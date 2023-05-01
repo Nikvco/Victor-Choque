@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    width: 50%;
+}
+
+.contenedor-1{
+    width: 100;
+    height: 100vh;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.perfil{
+    width: 25%;
+    height: 100%;
+    margin-top: -15%;
+    border-radius: 50%;
+}
+
+.perfil:hover{
+    transform: scale(1.20);
+}
+
+.nombre{
+    text-shadow: -1px -1px 1px #100b0b,
+    0px 4px 1px rgba(0,0,0,0.5),
+    0px 0px 7px rgba(8, 7, 7, 0.745);
+    font-size: 2.5em;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.nombre:hover{
+    transform: scale(1.20);
+    color: #e23318ec;
+}
+
+.fondo{
+    background-color: #d6d9e4;
+    font: arial, trebuchet, helvetica;
+}
+
+.acerca{
+    color: #fff;
+    background-color: #18a6e2ec;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 25%;
+}
+
+.acerca:hover{
+    transform: scale(1.20);
+    background-color: hsl(229, 86%, 39%);
+}
+.gustos{
+    background-color: #18a6e2ec;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    color: #fff;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+
+.link:hover{
+    background-color: hsl(229, 86%, 39%);
+    color: #fff;
+}
+
+.materias{
+
+}
+
+.materias{
+    background-color: rgb(132, 227, 230);
+    
+}
+
+#materia1{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    padding: 10px 60px;
+    margin-top: -20px;
+}
+
+#materia2{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    padding: 10px 60px;
+    margin-top: -5%;
+}
+
+#materia3{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    padding: 10px 60px;
+    margin-top: -5%;
+}
+
+#materia4{
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    padding: 10px 60px;
+    margin-top: -5%;
+}
+
+#materias{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 90%;
+    height: 5%;
+    grid-gap: 30px;
+    margin: 5%;
+    padding: 50px 50px;
+    margin-top: -10px;
+}
+
+#materias img{
+    width: 100%;
+    transition: all 300ms;
+    position: relativece;
+}
+
+#materias img:hover{
+    transform: scale(1.15);
+}
+
+.deportes{
+    background-color: rgb(132, 227, 230);
+}
+
+.musicas{
+    background-color: rgb(132, 227, 230);
+}
+
+.comida{
+    background-color: rgb(132, 227, 230);
+}
+
+.contenedor-2{
+    background-color: #100b0b;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: -5%;
+}
+
+.contacto{
+    background-color: #100b0b;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie1{
+
+}
+.box1{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+
+.box1, h3{
+    font-size: 30px;
+}
+
+.box2, h3{
+    font-size: 30px;
+    margin: 10px;
+}
+
+#color1{
+    background-color: #100b0b;
+    border: 0px;
+    color: white;
+    width: 90px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+#color2{
+    background-color: #e23318ec;
+    border: 0px;
+    color: white;
+    width: 90px;
+}
+
+#color3{
+    background-color: #d6d9e4;
+    border: 0px;
+    color: white;
+    width: 80px;
+}
+
+#color4{
+    background-color: #18a6e2ec;
+    border: 0px;
+    color: white;
+    width: 90px;
+}
+#color5{
+    background-color: hsl(229, 86%, 39%);
+    border: 0px;
+    color: white;
+    width: 140px;
+}
+
+#color6{
+    background-color: #18a6e2ec;
+    border: 0px;
+    color: white;
+    width: 90px;
+}
+
+#color7{
+    background-color: rgb(136, 223, 204);
+    border: 0px;
+    color: white;
+    width: 130px;
+}
+
+#color8{
+    background-color: #fff;
+    color: 100b0b;
+    border: 0px;
+    width: 50px;
+}
